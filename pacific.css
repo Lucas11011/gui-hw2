@@ -1,0 +1,128 @@
+/* Lucas Aurelio */
+
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+    display: block;
+}
+
+/* Body styling */
+body {
+    background: linear-gradient(to bottom, #bed3e4, #00569f);
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+	height: 100vh;
+}
+
+/* Main wrapper for the page content */
+#wrapper {
+    width: 80%;
+    min-width: 600px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+}
+
+/* h1 styling */
+h1 {
+    background-image: url('sunset.jpg');
+    background-size: 100% 100%;
+    color: white;
+    margin-bottom: 0;
+	margin-top: 0;
+    padding: 10px;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+/* h2 styling */
+h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    color: #3399CC;
+}
+
+/* Navigation list styling */
+nav ul {
+    font-size: 1.2em;
+}
+
+/* Remove default list styling for nav items */
+nav ul li {
+    list-style-type: none;
+}
+
+/* General link styling */
+a {
+    color: black;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Navigation bar styling */
+nav {
+    float: left;
+    width: 23%;
+    background-color: #95d5f5;
+    padding-bottom: 63.1vh;
+}
+
+/* Visited link color */
+nav a:visited {
+    color: #344873;
+}
+
+/* Hover effect for links */
+nav a:hover {
+    color: #FFFFFF;
+}
+
+/* Content area styling */
+#content {
+    font-size: 90%;
+    float: right;
+    width: 75%;
+}
+
+/* Image within content */
+#content img {
+    float: left;
+    padding-right: 30px;
+}
+
+/* List items within content */
+#content ul li {
+    list-style-image: url('marker.gif');
+    padding-bottom: 20px;
+}
+
+/* resort class styling */
+.resort {
+    font-weight: bold;
+    color: #1a4e68;
+}
+
+/* Paragraph styling within content */
+#content p {
+    font-size: 16px;
+}
+
+/* Contact section styling */
+#contact {	
+    padding-top: 30px;
+    padding-bottom: 63px;
+}
+
+/* Footer styling */
+footer {
+    padding: 10px;
+    margin-left: 24%;
+    margin-top: 20px;
+    font-family: Georgia, "Times New Roman", serif;
+	font-style: italic;
+	font-size: small;
+}
+
+/* Footer link styling */
+footer a {
+	color: blue;
+	text-decoration: underline;
+	padding-top: 2px;
+}
